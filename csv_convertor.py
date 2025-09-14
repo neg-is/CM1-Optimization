@@ -4,7 +4,7 @@ import csv
 import chardet
 
 # Path to a folder containing the CSV files
-folder_path = r"C:\Users\NegarSakhipoor\Documents\New Folder"
+folder_path = r"C:\Users\USERNAME\Documents\New Folder"
 
 def detect_encoding(file_path):
     with open(file_path, 'rb') as f:
@@ -105,3 +105,4 @@ def process_csv_folder(folder_path):
 
 if __name__ == "__main__":
     process_csv_folder(folder_path)
+
